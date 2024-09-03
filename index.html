@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>CALCULATOR</h1>
     <div id="calculator">
       <input type="text" id="display" readonly />
       <div id="keys">
@@ -22,43 +23,31 @@
           +/-
         </button>
         <button
-          onclick="appendToDisplay('%')"
+          onclick="calculatePercentage()"
           id="percentBtn"
           class="specialBtn"
         >
           %
         </button>
-        <button
-          onclick="appendToDisplay('÷')"
-          id="divisionBtn"
-          class="operatorBtn"
-        >
+        <button onclick="setOperator('÷')" id="divisionBtn" class="operatorBtn">
           ÷
         </button>
         <button onclick="appendToDisplay('7')" id="sevenBtn">7</button>
         <button onclick="appendToDisplay('8')" id="eightBtn">8</button>
         <button onclick="appendToDisplay('9')" id="nineBtn">9</button>
-        <button
-          onclick="appendToDisplay('x')"
-          id="multiplyBtn"
-          class="operatorBtn"
-        >
+        <button onclick="setOperator('x')" id="multiplyBtn" class="operatorBtn">
           x
         </button>
         <button onclick="appendToDisplay('4')" id="fourBtn">4</button>
         <button onclick="appendToDisplay('5')" id="fiveBtn">5</button>
         <button onclick="appendToDisplay('6')" id="sixBtn">6</button>
-        <button
-          onclick="appendToDisplay('-')"
-          id="minusBtn"
-          class="operatorBtn"
-        >
+        <button onclick="setOperator('-')" id="minusBtn" class="operatorBtn">
           -
         </button>
         <button onclick="appendToDisplay('1')" id="oneBtn">1</button>
         <button onclick="appendToDisplay('2')" id="twoBtn">2</button>
         <button onclick="appendToDisplay('3')" id="threeBtn">3</button>
-        <button onclick="appendToDisplay('+')" id="plusBtn" class="operatorBtn">
+        <button onclick="setOperator('+')" id="plusBtn" class="operatorBtn">
           +
         </button>
       </div>

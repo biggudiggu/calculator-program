@@ -3,12 +3,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   background-color: hsl(350, 100%, 98%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  color: hsl(350, 81%, 67%);
 }
 
 #calculator {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: hsl(350, 100%, 88%);
   border-radius: 15px;
   max-width: 500px;

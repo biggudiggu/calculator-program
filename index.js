@@ -61,7 +61,7 @@ function calculate() {
     case 'x':
       result = prev * current;
       break;
-    case '/':
+    case '÷':
       result = current === 0 ? 'Error' : prev / current;  
       break;
 

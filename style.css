@@ -17,7 +17,8 @@ h1 {
 
 #calculator {
   background-color: hsl(350, 100%, 88%);
-  border-radius: 15px;
+  border-radius: 35px;
+  border: 1px solid rgb(245, 50, 83);
   max-width: 500px;
   overflow: hidden;
   box-shadow: 5px 5px 15px hsla(350, 12%, 42%, 0.306);
@@ -31,6 +32,7 @@ h1 {
   text-align: left;
   color: white;
   padding: 20px;
+  border-bottom: 1px solid rgb(245, 50, 83);
 }
 
 #keys {

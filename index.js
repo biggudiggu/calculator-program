@@ -4,6 +4,7 @@ let operator = null;
 
 
 const display = document.getElementById("display");
+display.value = '0';
 
 function appendToDisplay(input){
     if (input === ',' && currentInput.includes('.')) return;
@@ -17,7 +18,7 @@ function appendToDisplay(input){
 }
 
 function clearDisplay() {
-  display.value = "";
+  display.value = "0";
   previousInput = '';
   currentInput = '';
   operator = null;

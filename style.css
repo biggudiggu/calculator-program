@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(350, 100%, 98%);
+}
+
+#calculator {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(350, 100%, 88%);
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px hsla(350, 12%, 42%, 0.306);
+}
+
+#display {
+  width: 100%;
+  border: none;
+  font-size: 5rem;
+  background-color: hsl(350, 100%, 83%);
+  text-align: left;
+  color: white;
+  padding: 15px;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+button {
+  border: none;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: hsl(350, 100%, 75%);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(350, 100%, 85%);
+}
+
+button:active {
+  background-color: hsl(350, 100%, 90%);
+}
+
+#lastRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+#zeroBtn {
+  width: 220px;
+  border-radius: 50px;
+}
+
+.operatorBtn {
+  background-color: hsl(350, 79%, 62%);
+}
+
+.operatorBtn:hover {
+  background-color: hsl(350, 79%, 72%);
+}
+
+.operatorBtn:active {
+  background-color: hsl(350, 79%, 82%);
+}
+
+.specialBtn {
+  background-color: hsl(350, 81%, 67%);
+}
+
+.specialBtn:hover {
+  background-color: hsl(350, 81%, 77%);
+}
+
+.specialBtn:active {
+  background-color: hsl(350, 81%, 87%);
+}
